@@ -14,17 +14,20 @@
 </head>
 
 <body>
-<header>
-    <h1>Логотип</h1>
-    <nav>
-      <ul>
-        <li><a href="">Головна</a></li>
-        <li><a href="">Товари</a></li>
-        <li><a href="">Про нас</a></li>
-        <li><a href="#ci">Контакти</a></li>
-        <li><a href="">Кошик</a></li>
-      </ul>
-    </nav>
+<header class="header">
+  <div class="logo">TechShop</div>
+       
+  <nav class="main-nav">
+    <ul class="nav-list">
+      <li><a href="#">Головна</a></li>
+      <li><a href="#">Каталог</a></li>
+      <li><a href="#">Про нас</a></li>
+    </ul>
+  </nav>
+
+  <div class="user-actions">
+    <button class="btn btn-cart">Кошик (0)</button>
+  </div>
 </header>
 
 <main>
@@ -38,21 +41,33 @@
     </section>
     <section>
         <h2>Популярні товари</h2>
-            <article>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4XzsqwgVl7gqpyJpspzNiuCHjdkF_nJ5qWA&s" alt="PRODUCT">
-                <h3>Товар1</h3>
-                <p>Опис товару <br> Ціна: ____ <a href="#" class="btn">Купити</a></p> 
-            </article><br><br>
-            <article>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmF7ROju0dYMmBSejvtVCEAEdkJGClfLNOKA&s" alt="PRODUCT">
-                <h3>Товар2</h3>
-                <p>Опис товару <br> Ціна: ____ <a href="#" class="btn">Купити</a></p> 
-            </article><br><br>
-            <article>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG2MPAuut5z7Ym7Gpm_-hg8DblPwVJSpjxRg&s" alt="PRODUCT">
-                <h3>Товар3</h3>
-                <p>Опис товару <br> Ціна: ____ <a href="#" class="btn">Купити</a></p> 
-            </article><br><br>
+            <article class="products-grid">
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4XzsqwgVl7gqpyJpspzNiuCHjdkF_nJ5qWA&s" alt="Product Name" class="product-img">
+                    <h3 class="product-title">Смартфон Galaxy S21</h3>
+                    <p class="product-desc">Потужний процесор та неймовірна камера.</p>
+                    <span class="product-price">25 000 грн</span>
+                    <button class="btn-buy">Купити</button>
+                </div>
+            </article>
+            <article class="products-grid">
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmF7ROju0dYMmBSejvtVCEAEdkJGClfLNOKA&s" alt="Product Name" class="product-img">
+                    <h3 class="product-title">Смартфон Galaxy S21</h3>
+                    <p class="product-desc">Потужний процесор та неймовірна камера.</p>
+                    <span class="product-price">25 000 грн</span>
+                    <button class="btn-buy">Купити</button>
+                </div>
+            </article>
+            <article class="products-grid">
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG2MPAuut5z7Ym7Gpm_-hg8DblPwVJSpjxRg&s" alt="Product Name" class="product-img">
+                    <h3 class="product-title">Смартфон Galaxy S21</h3>
+                    <p class="product-desc">Потужний процесор та неймовірна камера.</p>
+                    <span class="product-price">25 000 грн</span>
+                    <button class="btn-buy">Купити</button>
+                </div>
+            </article>
     </section>
 </main>
 
