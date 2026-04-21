@@ -30,45 +30,62 @@
   </div>
 </header>
 
-<main>
+<main class="page-layout">
+    
     <section class="hero">
         <h1>Welcome!</h1> 
         <a href="#" class="btn">Купити</a>
     </section>
 
+    <aside class="sidebar">
+            <h3>Фільтри</h3>
+            <!-- Тут будуть чекбокси категорій, напр. Ноутбуки, Смартфони -->
+            <ul>
+                <li><input type="checkbox" /> Ноутбуки</li>
+                <li><input type="checkbox" /> Смартфони</li>
+            </ul>
+    </aside>
+
     <section>
         <h2><a href="index.html" class="logo">Новинки 2025</a></h2>
     </section>
-    <section>
-        <h2>Популярні товари</h2>
-            <article class="products-grid">
-                <div class="product-card">
+
+    
+        
+        <section class="products-content">
+            <h2>Популярні товари</h2>
+            <div class="products-grid">
+                <!-- Ваші картки <article> -->
+                <article class="products-card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4XzsqwgVl7gqpyJpspzNiuCHjdkF_nJ5qWA&s" alt="Product Name" class="product-img">
                     <h3 class="product-title">Смартфон Galaxy S21</h3>
                     <p class="product-desc">Потужний процесор та неймовірна камера.</p>
                     <span class="product-price">25 000 грн</span>
                     <button class="btn-buy">Купити</button>
-                </div>
-            </article>
-            <article class="products-grid">
-                <div class="product-card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmF7ROju0dYMmBSejvtVCEAEdkJGClfLNOKA&s" alt="Product Name" class="product-img">
-                    <h3 class="product-title">Смартфон Galaxy S21</h3>
-                    <p class="product-desc">Потужний процесор та неймовірна камера.</p>
-                    <span class="product-price">25 000 грн</span>
-                    <button class="btn-buy">Купити</button>
-                </div>
-            </article>
-            <article class="products-grid">
-                <div class="product-card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG2MPAuut5z7Ym7Gpm_-hg8DblPwVJSpjxRg&s" alt="Product Name" class="product-img">
-                    <h3 class="product-title">Смартфон Galaxy S21</h3>
-                    <p class="product-desc">Потужний процесор та неймовірна камера.</p>
-                    <span class="product-price">25 000 грн</span>
-                    <button class="btn-buy">Купити</button>
-                </div>
-            </article>
-    </section>
+                </article>
+
+                <article class="products-card">
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmF7ROju0dYMmBSejvtVCEAEdkJGClfLNOKA&s" alt="Product Name" class="product-img">
+                                <h3 class="product-title">Мультипіч Bosch MAF462B0</h3>
+                                <p class="product-desc">Lorem ipsum dolor sit amet. </p>
+                                <span class="product-price">5 000 грн</span>
+                                <button class="btn-buy">Купити</button>
+                </article>
+
+
+                <article class="products-card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG2MPAuut5z7Ym7Gpm_-hg8DblPwVJSpjxRg&s" alt="Product Name" class="product-img">
+                                <h3 class="product-title">Електросамокат NAVEE GT3 MAX-E</h3>
+                                <p class="product-desc">Lorem ipsum dolor sit amet.</p>
+                                <span class="product-price">15 000 грн</span>
+                                <button class="btn-buy">Купити</button>
+                </article>
+                
+            </div>
+        </section>
+    
+    
 </main>
 
 <footer>
